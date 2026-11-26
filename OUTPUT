@@ -1,1 +1,21 @@
+
+import matplotlib.pyplot as plt
+
+# Example DNA sequence data
+bases = ["A", "T", "G", "C"]
+counts = [25, 30, 20, 25]
+
+# Create a bar chart
+plt.bar(bases, counts)
+
+plt.title("DNA Nucleotide Composition")
+plt.xlabel("Nucleotide")
+plt.ylabel("Number of Bases")
+
+# Save the chart
+plt.savefig("dna_chart.png")
+
+# Display the chart
+plt.show()
+
 https://colab.research.google.com/drive/1jd8_87kecHvHu648H7jCdyc2T1KUMaHh#scrollTo=RvJqh26RpLEV&fullscreenOutput=true
